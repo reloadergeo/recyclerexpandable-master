@@ -49,8 +49,8 @@ public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
         // sin expander  los demas  inidices
 
-        /*for(int  i=1; i<items.size();i++)
-            expandState.append(i, false);*/
+        for(int  i=1; i<items.size();i++)
+            expandState.append(i, false);
 
 
 

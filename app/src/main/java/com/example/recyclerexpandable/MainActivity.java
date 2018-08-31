@@ -35,12 +35,6 @@ public class MainActivity extends AppCompatActivity {
 
     ArrayList<String> listapasj;
 
-
-
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -78,12 +72,7 @@ public class MainActivity extends AppCompatActivity {
                              Toast.makeText(MainActivity.this, (i+1) + " Nombre:"+holders.nombre.getText()+ " Apellido: "+holders.apellido.getText() +
                                 " DNI:"+holders.dni.getText(), Toast.LENGTH_SHORT).show();
 
-
-
                            //listapasj.add(holders.nombre.getText().toString());
-
-
-
 
                         }
 
